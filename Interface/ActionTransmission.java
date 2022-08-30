@@ -7,8 +7,8 @@ package Interface;
 
 /**
  *
- * @author H
+ * @author manhchelsea
  */
-public interface ActionTransfer<T1,T2> {
+public interface ActionTransmission<T1,T2> {
     public void transfer(T1 a, T2 b);
 }

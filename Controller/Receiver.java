@@ -10,7 +10,7 @@ import Interface.ActionReceiver;
 
 /**
  *
- * @author nguye
+ * @author manhchelsea
  */
 public class Receiver implements ActionReceiver<Stack>  {
 

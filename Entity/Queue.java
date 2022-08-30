@@ -7,10 +7,10 @@ package Entity;
 
 /**
  *
- * @author ducmy
+ * @author manhchelsea
  */
 public class Queue {
-    //current number of element
+//current number of element
     int size;
     //capacity
     int max;
@@ -120,6 +120,4 @@ public class Queue {
         Queue queue = new Queue(50);
         queue.enqueue(str);
     }
-    
-    
 }

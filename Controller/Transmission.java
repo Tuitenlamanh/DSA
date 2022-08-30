@@ -7,13 +7,13 @@ package Controller;
 
 import Entity.Queue;
 import Entity.Stack;
-import Interface.ActionTransfer;
+import Interface.ActionTransmission;
 
 /**
  *
- * @author H
+ * @author manhchelsea
  */
-public class Transfer implements ActionTransfer<Queue,Stack>{
+public class Transmission implements ActionTransmission<Queue,Stack>{
 
     @Override
     public void transfer(Queue a, Stack b) {

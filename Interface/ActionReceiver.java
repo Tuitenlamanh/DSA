@@ -7,8 +7,9 @@ package Interface;
 
 /**
  *
- * @author H
+ * @author manhchelsea
  */
 public interface ActionReceiver<T> {
     public void read(T items);
 }
+    

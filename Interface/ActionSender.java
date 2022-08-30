@@ -5,10 +5,9 @@
  */
 package Interface;
 
-
 /**
  *
- * @author H
+ * @author manhchelsea
  */
 public interface ActionSender<T>  {
     public void send(T items);

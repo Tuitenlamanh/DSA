@@ -7,10 +7,9 @@ package Entity;
 
 /**
  *
- * @author nguye
+ * @author manhchelsea
  */
 public class Stack {
-
     // max là số lượng max của stack có thể chứa;
     // top là cái stack ở trên cùng
     private int max,top;
@@ -53,7 +52,6 @@ public class Stack {
         return str;
     }
     
-    
     public String pop() {
         if(isEmpty()) {
             return null;
@@ -82,5 +80,4 @@ public class Stack {
     public static int sum(int a, int b) {
         return a + b;
     }
-    
 }
